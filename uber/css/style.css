@@ -1,0 +1,239 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    background-color: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu-link {
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.menu .menu-item{
+    border-right: 2px dashed #000;
+    padding-right: 35px;
+}
+
+.subheader{
+    min-height: 84px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+}
+
+.subheader .subheader-logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.subheader .subheader-official {
+    margin-top: 6px;
+    opacity: 0.5;
+    font-weight: 100;
+    font-size: 13px;
+    color: #fff; 
+    line-height: 12px;
+}
+
+.subheader .subheader-call {
+    margin-top: 19px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #fff;
+}
+
+.subheader .subheader-phone {
+    margin-top: 8px;
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+    line-height: 12px;
+}
+
+.subheader .subheader-btn {
+    margin-top: 19px;
+    border-radius: 4px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.12);
+    background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo {
+    min-height: 799px;
+    background: url(../img/bg/uber_bg.jpg) center center/cover no-repeat;
+    padding: 151px 0 135px 0; 
+}
+
+.promo .promo-header {
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+    margin: 0;
+}
+
+.promo .promo-subheader {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.promo .promo-descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    margin-top: 22px;
+}
+
+.promo .promo-btn {
+    border-radius: 4px;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.12);
+    background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    display: block;
+    margin: 115px auto 0 auto;
+}
+
+.benefit {
+    min-height: 849px;
+    background-color:#FFFFFF;
+    padding-top: 20px;
+}   
+
+.benefit-box {
+    width: 112px;
+    height: 24px;
+    background: #000000;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 2.5;
+}
+
+.subheader-benefit {
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222;
+}
+
+.benefit .benefit-item {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 16px;
+}
+
+.benefit .benefit-icon-box {
+    width: 113px;
+    height: 113px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.benefit .benefit-icon {
+    max-width: 85px;
+}
+
+.benefit .benefit-descr {
+    max-width: 371px;
+}
+
+.benefit .benefit-descr-2 {
+    max-width: 341px;
+}
+
+.benefit .benefit-descr{
+    font-weight: 300;
+    font-size: 15px;
+    color: #202020;
+}
+
+.benefit .benefit-descr span{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 124%;
+    color: #1eacc7;
+}
+
+.benefit .benefit-item-calendar {
+margin-top: 48px;
+}
+
+.benefit .benefit-item-geo {
+margin-top: 30px;
+}
+
+.benefit .benefit-item-car {
+margin-top: 22px;
+}
+
+.benefit .benefit-item-cash {
+margin-top: 26px;
+}
+
+.benefit .benefit-item-key {
+margin-top: 31px;
+}
+
+.benefit .benefit-item-phone {
+margin-top: 27px;
+}
